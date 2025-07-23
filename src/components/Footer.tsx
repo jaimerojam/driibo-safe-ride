@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Twitter, Instagram, Mail, Phone, MapPin, Apple, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Footer = () => {
@@ -13,7 +13,7 @@ const Footer = () => {
               <img 
                 src="/lovable-uploads/8bcb10f5-bd72-4eb4-be7e-19b0391eba28.png" 
                 alt="Driibo Logo" 
-                className="h-8 w-auto"
+                className="h-10 w-auto"
               />
               <p className="text-primary-foreground/80 max-w-md">
                 La plataforma de transporte más segura para cuando no puedes conducir. 
@@ -22,24 +22,20 @@ const Footer = () => {
               
               {/* Download Buttons */}
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button variant="outline" className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10">
-                  <div className="flex items-center space-x-2">
-                    <div className="w-6 h-6 bg-primary-foreground/20 rounded flex items-center justify-center">
-                      <span className="text-xs">📱</span>
-                    </div>
+                <Button className="bg-primary-foreground text-driibo-navy hover:bg-primary-foreground/90 transition-colors">
+                  <div className="flex items-center space-x-3">
+                    <Apple className="w-6 h-6" />
                     <div className="text-left">
-                      <div className="text-xs text-primary-foreground/60">Descargar en</div>
+                      <div className="text-xs opacity-80">Descargar en</div>
                       <div className="text-sm font-semibold">App Store</div>
                     </div>
                   </div>
                 </Button>
-                <Button variant="outline" className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10">
-                  <div className="flex items-center space-x-2">
-                    <div className="w-6 h-6 bg-primary-foreground/20 rounded flex items-center justify-center">
-                      <span className="text-xs">📲</span>
-                    </div>
+                <Button className="bg-primary-foreground text-driibo-navy hover:bg-primary-foreground/90 transition-colors">
+                  <div className="flex items-center space-x-3">
+                    <Play className="w-6 h-6" />
                     <div className="text-left">
-                      <div className="text-xs text-primary-foreground/60">Disponible en</div>
+                      <div className="text-xs opacity-80">Disponible en</div>
                       <div className="text-sm font-semibold">Google Play</div>
                     </div>
                   </div>
