@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Car, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const Header = () => {
@@ -10,11 +10,12 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <Car className="w-5 h-5 text-primary-foreground" />
-            </div>
-            <span className="text-2xl font-bold text-foreground">Driibo</span>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/8bcb10f5-bd72-4eb4-be7e-19b0391eba28.png" 
+              alt="Driibo Logo" 
+              className="h-8 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}

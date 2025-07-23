@@ -1,4 +1,4 @@
-import { Car, Facebook, Twitter, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Footer = () => {
@@ -10,12 +10,11 @@ const Footer = () => {
           <div className="grid lg:grid-cols-4 gap-8">
             {/* Company Info */}
             <div className="lg:col-span-2 space-y-6">
-              <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                  <Car className="w-5 h-5 text-primary-foreground" />
-                </div>
-                <span className="text-2xl font-bold">Driibo</span>
-              </div>
+              <img 
+                src="/lovable-uploads/8bcb10f5-bd72-4eb4-be7e-19b0391eba28.png" 
+                alt="Driibo Logo" 
+                className="h-8 w-auto"
+              />
               <p className="text-primary-foreground/80 max-w-md">
                 La plataforma de transporte más segura para cuando no puedes conducir. 
                 Conductores profesionales verificados que manejan tu propio vehículo.

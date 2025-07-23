@@ -17,9 +17,9 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
 
-    --primary: 217 91% 60%;
+    --primary: 214 100% 55%;
     --primary-foreground: 0 0% 98%;
-    --primary-glow: 217 91% 70%;
+    --primary-glow: 214 100% 65%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 240 5.9% 10%;
@@ -35,12 +35,12 @@ All colors MUST be HSL.
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 217 91% 60%;
+    --ring: 214 100% 55%;
 
-    /* Driibo Brand Colors */
-    --driibo-blue: 217 91% 60%;
-    --driibo-blue-dark: 217 91% 50%;
-    --driibo-navy: 240 30% 15%;
+    /* Driibo Brand Colors - Updated to match logo */
+    --driibo-blue: 214 100% 55%;
+    --driibo-blue-dark: 214 100% 45%;
+    --driibo-navy: 220 50% 10%;
     --driibo-gray: 240 4.8% 95.9%;
     --driibo-gray-dark: 240 3.7% 15.9%;
 
