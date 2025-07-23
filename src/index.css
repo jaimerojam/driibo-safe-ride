@@ -9,32 +9,53 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 240 10% 3.9%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 240 10% 3.9%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 240 10% 3.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 98%;
+    --primary-glow: 217 91% 70%;
 
     --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary-foreground: 240 5.9% 10%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
     --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent-foreground: 240 5.9% 10%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 217 91% 60%;
+
+    /* Driibo Brand Colors */
+    --driibo-blue: 217 91% 60%;
+    --driibo-blue-dark: 217 91% 50%;
+    --driibo-navy: 240 30% 15%;
+    --driibo-gray: 240 4.8% 95.9%;
+    --driibo-gray-dark: 240 3.7% 15.9%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--driibo-blue)), hsl(var(--driibo-blue-dark)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--driibo-navy)), hsl(var(--driibo-blue-dark)));
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%), hsl(var(--driibo-gray)));
+
+    /* Shadows */
+    --shadow-soft: 0 4px 6px -1px hsl(var(--driibo-blue) / 0.1);
+    --shadow-medium: 0 10px 15px -3px hsl(var(--driibo-blue) / 0.1);
+    --shadow-strong: 0 25px 50px -12px hsl(var(--driibo-blue) / 0.25);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 
