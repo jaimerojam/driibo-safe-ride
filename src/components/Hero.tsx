@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Play, Shield, Clock, MapPin } from "lucide-react";
-import heroImage from "@/assets/driibo-hero-illustration.png";
+import heroImage from "@/assets/driibo-service-illustration.png";
 
 const Hero = () => {
   return (
